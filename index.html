@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Asignment 9</title>
+    <style>
+        #formtable {
+            width: 550px;
+            border: 2px solid black;
+        }
+        #firsdiv {
+            width: 555px;
+            background-color: #e0b68c;
+            padding: 5px;
+        }
+        #formtable td {
+            width: 120px;
+            border: 1px solid black;
+            padding-left: 1px;
+            padding-top: 1px;
+        }
+        #secondtable {
+            width: 500px;
+            height: 350px;
+            text-align: center;
+            border: 2px solid black;
+            padding: 8px;
+        }
+        td {
+            border: 2px solid black;
+        }
+        button{
+            width: 65px;
+            height: 28px;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div id="firsdiv">
+            <h3><i>KM Custom HTML Form Example Using AppleScript<br>by Muhammad Ejaz Nawaz</i></h3>
+            <form action="">
+                <table id="formtable">
+                    <tr>
+                        <td><label for="name"><b>Name:</b></label></td>
+                        <td><Input type="text" name="name" placeholder="Ejaz Nawaz"></Input></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"><b>Email:</b></label></td>
+                        <td><Input type="email" name="name" placeholder="abcd@gmail.com"></Input></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password"><b>Password</b></label></td>
+                        <td><Input type="password" name="name" placeholder="*****"></Input></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="approval">
+                                <b>Approval Required:</b><br>
+                                Click on the button or text <br> to check/uncheck</label>
+                        </td>
+                        <td><input type="checkbox" name="approval">Do you approve?</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="favotite">
+                                <b>Pick Your Favorite:</b><br>
+                                Click on the button or text <br> to select</label>
+                        </td>
+                        <td><input type="radio" name="favotite"> Choice A <br>
+                            <input type="radio" name="favotite"> Choice B <br>
+                            <input type="radio" name="favotite"> Choice C
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="popup"><b>Popup Menu:</b></label></td>
+                        <td><input type="number" placeholder="Taxes -- TX"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="list">
+                                <b>List:</b><br>
+                                Setup Options:<br>
+                                <ul>
+                                    <li>Number of rows to display</li>
+                                    <li>Allow Multi-select</li>
+                                </ul>
+                            </label>
+                        </td>
+                        <td>
+                            <select name="list" id="" size="5" multiple>
+                                <option value="">California -- CA</option>
+                                <option value="">Calorado -- CO</option>
+                                <option value="">Connectiocut -- CN</option>
+                                <option value="">California -- DA</option>
+                                <option value="">California -- DO</option>
+                                <option value="">California -- EA</option>
+                                <option value="">California -- EO</option>
+                                <option value="">California -- CA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="km"><b>Field Ignored by KM</b></label></td>
+                        <td><input type="text" name="km" placeholder="10,384"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="textaria"><b>Text Area</b></label></td>
+                        <td><textarea name="" id="" cols="35" rows="4"></textarea></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td colspan="2" style="border: none; padding-top: 10px; padding-right: 300px;">
+                        <button style="background-color: blue; color: white; border: 2px solid lightskyblue;">Save</button>
+                        <button style="border: 2px solid blue;">Cancel</button>
+                        <button style="background-color: lightgray; border: 1px solid black;">Resize</button>
+                    </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <br><br>
+        <hr>
+        <br><br>
+
+
+        <!-- ................2nd Assignment and Second Table Code Start Here................ -->
+        <table id="secondtable" style="height: 30px;">
+            <tr>
+                <td colspan="4" style="border: none;"><b>UET UNIVERSITY</b></td>
+            </tr>
+            <tr>
+                <table id="secondtable">
+                    <tr>
+                        <td colspan="4" style="background-color: grey;"><b>Information Technology Students</b></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><b>Students</b></td>
+                        <td colspan="3"><b>WEB-DESIGN ASSIGNMENTS</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Assignment1</b></td>
+                        <td><b>Assignment2</b></td>
+                        <td><b>Assignment3</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Student_1</b></td>
+                        <td>YES</td>
+                        <td colspan="2">NO</td>
+                    </tr>
+                    <tr>
+                        <td><b>Student_2</b></td>
+                        <td>NO</td>
+                        <td>YES</td>
+                        <td>NO</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="background-color: grey;"><b>Information Economics Students</b></td>
+                    </tr>
+                    <tr>
+                        <td><b>Student_1</b></td>
+                        <td colspan="2">NO</td>
+                        <td>YES</td>
+                    </tr>
+                </table>
+            </tr>
+        </table>
+        <br><br>
+        <hr>
+        <h2>Muhammad Ejaz Nawaz</h2>
+        <p>Web and App 117316 <br>
+            Islamic Research Center of Dawatislami Karachi
+        </p>
+    </center>
+</body>
+
+</html>
